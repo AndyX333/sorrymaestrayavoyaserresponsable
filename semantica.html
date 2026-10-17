@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendiendo HTML 5 , CSS</title>
+    <link rel="stylesheet" href="estilos.css">
+   
+</head>
+<body>
+    <header class="encabezado" id="inicio">
+        <h1>Mi primera página web</h1>
+    </header>
+
+    <nav class="navegacion" aria-label="Navegación principal">
+        <a href="http://www.cbtis83.edu.mx">Cbtis</a>
+        <a href="https://farodemocratico.ine.mx/">Faro Democrático</a>
+        <a href="https://farodemocratico.ine.mx/derechos-humanos/">Galería</a>
+        <a href="https://farodemocratico.ine.mx/que-es-ser-ciudadano-y-que-es-ser-ciudadana/">Ciudadanía</a>
+    </nav>
+
+    <main class="contenedor">
+        <section class="bienvenida">
+            <h2>Bienvenido al desarrollo </h2>
+            <p>
+                HTML5 organiza el contenido y CSS3 permite
+                diseñar páginas atractivas, modernas y responsivas.
+            </p>
+        </section>
+
+        <section id="articulos">
+            <h2>Artículos educativos</h2>
+
+            <article class="tarjeta">
+                <h3>¿Qué es HTML5?</h3>
+                <p>
+                    HTML5 utiliza etiquetas para organizar títulos,
+                    párrafos, imágenes, enlaces y otros elementos.
+                </p>
+                <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank" rel="noopener noreferrer">
+                    Aprender HTML
+                </a>
+            </article>
+
+            <article class="tarjeta">
+                <h3>¿Qué es CSS3?</h3>
+                <p>
+                    CSS controla los colores, tamaños, márgenes,
+                    tipografías y la distribución de los elementos.
+                </p>
+                <a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank" rel="noopener noreferrer">
+                    Aprender CSS
+                </a>
+            </article>
+        </section>
+
+        <section id="galeria">
+            <h2>Galería de imágenes</h2>
+
+            <div class="galeria">
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600" alt="Computadora con código de programación">
+                    <figcaption>Aprendiendo a me programar</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600" alt="Persona trabajando frente a una computadora">
+                    <figcaption>Diseño y desarrollo web</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <a href="index.html">Regresar a Index</a>
+</body>
+</html>
